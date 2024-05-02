@@ -2,5 +2,5 @@
 
 public class RepositorioTramiteTXT
 {
-
+    readonly string _nameArch = "tramites.txt";
 }

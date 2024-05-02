@@ -1,6 +1,13 @@
 ﻿namespace SGE.Aplicacion;
 
-public class IExpedienteRepositorio
-{
 
+public interface IExpedienteRepositorio
+{
+    void ExpedienteAlta(Expediente expediente);
+    void ExpedienteBaja(Expediente expediente);
+    
+    //consultaporid
+    //consultaportodos
+
+    void ExpedienteModificacion(Expediente expediente);
 }
